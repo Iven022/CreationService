@@ -1,0 +1,8 @@
+[Unit]
+Description=USB AUTO MOUNT AND UNMOUNT SERVICE.
+
+[Service]
+ExecStart=/bin/bash /usr/bin/usbDetectServ.sh
+
+[Install]
+WantedBy=multi-user.target
